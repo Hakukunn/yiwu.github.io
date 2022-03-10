@@ -7,7 +7,6 @@
 	body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}
 	</style>
 	<script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=LXpXl6bnXk8EPypPqxwu1CL1s2j0jLU9"></script>
-	<title>地图展示</title>
 </head>
 <body>
 	<div id="allmap"></div>
@@ -16,7 +15,7 @@
 <script type="text/javascript">
 	// 百度地图API功能
 	var map = new BMap.Map("allmap");    // 创建Map实例
-	map.centerAndZoom(new BMap.Point(120.076983,29.31241), 11);  // 初始化地图,设置中心点坐标和地图级别
+	map.centerAndZoom(new BMap.Point(120.085031,29.43881), 11);  // 初始化地图,设置中心点坐标和地图级别
 	//添加地图类型控件
 	map.addControl(new BMap.MapTypeControl({
 		mapTypes:[
